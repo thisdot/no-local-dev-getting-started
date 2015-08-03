@@ -19,7 +19,7 @@ end
 
 
 class Contact < ActiveRecord::Base
-  self.table_name = 'salesforce.contact'
+  self.table_name = 'syncwithsf163.contact'
 end
 
 #get "/contacts" do
